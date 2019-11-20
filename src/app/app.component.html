@@ -1,0 +1,8 @@
+<hello name="{{ name }}"></hello>
+
+<form (submit)="onSubmit(recordsPerPage.value)">
+   <input #recordsPerPage placeholder="Enter No of records" required>
+   <button type="submit">Click</button>
+</form>
+
+<button (click) = "check()">Check</button>
